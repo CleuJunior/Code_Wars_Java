@@ -1,12 +1,15 @@
 package kyu_8;
 
+import java.util.Arrays;
+
 public class Main_Tests {
 
+
+
 	public static void main(String[] args) {
-
-		String str = "eloquent";
-
-		System.out.println(RemoveChars.remove(str));
+		int[] arr = { 1, 2, 3 };
+		
+		System.out.println(Arrays.toString(kataDoubleArray.map(arr)));
 
 	}
 
