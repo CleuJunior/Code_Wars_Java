@@ -4,10 +4,9 @@ public class Main_Tests {
 
 	public static void main(String[] args) {
 
-		final int salary = 75;
-		final boolean bonus = true;
+		int[] arg = { 78, 56, 232, 12, 11, 43, 0, -3 };
 
-		System.out.println(kataBonusSalary.bonusTime(salary, bonus));
+		System.out.println(kataMenorNaArray.findSmallestInt(arg));
 
 	}
 
