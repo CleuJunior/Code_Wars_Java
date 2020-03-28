@@ -4,10 +4,10 @@ public class Main_Tests {
 
 	public static void main(String[] args) {
 
-		int coefficient = 80;
-		int exponent = 39;
+		final int salary = 75;
+		final boolean bonus = true;
 
-		System.out.println(kataIntegral.integrate(coefficient, exponent));
+		System.out.println(kataBonusSalary.bonusTime(salary, bonus));
 
 	}
 
