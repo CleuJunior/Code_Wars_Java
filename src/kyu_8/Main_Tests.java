@@ -4,10 +4,9 @@ public class Main_Tests {
 
 	public static void main(String[] args) {
 
-		String name = "Patrick Feeney";
+		String dna = "TTTT";
 
-		System.out.println(kataAbbrv.abbrevName(name));
-
+		System.out.println(kataDNA.dnaToRna(dna));
 	}
 
 }
